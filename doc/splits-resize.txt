@@ -1,0 +1,27 @@
+*splits-resize.txt*       For Vim version 8.0.        Last change: 2020 Aug 30
+
+
+                      Splits Resize    by S0AndS0
+
+
+Splits Resize                                                  *splits-resize*
+
+1. Normal Mappings                                  |splits-resize-normal-map|
+
+==============================================================================
+1. Normal Mappings                                  *splits-resize-normal-map*
+
+{expr}<ESC>h           [count] Re-size active vertical split by default `-2`
+{expr}<A-h>            [count] Re-size active vertical split by default `-2`
+
+{expr}<ESC>j           [count] Re-size active horizontal split by default `+2`
+{expr}<A-j>            [count] Re-size active horizontal split by default `+2`
+
+{expr}<ESC>k           [count] Re-size active horizontal split by default `-2`
+{expr}<A-k>            [count] Re-size active horizontal split by default `-2`
+
+{expr}<ESC>l           [count] Re-size active vertical split by default `+2`
+{expr}<A-l>            [count] Re-size active vertical split by default `+2`
+
+ vim:tw=78:ts=8:ft=help:norl:
+
