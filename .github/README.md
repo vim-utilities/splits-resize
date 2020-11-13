@@ -321,7 +321,29 @@ ______
   "&#x1F4C7; Resources that where helpful in building this project so far."
 
 
+- Vim documentation
+
+  - `help :map-operator`
+  - `help :map-commands`
+  - `help :command-range`
+  - `help <range>`
+  - `help :command-count`
+  - `help <count>`
+  - `help <Plug>`
+  - `help <SID>`
+  - `help :map-<expr>`
+
+- Linux hints
+
+  - Use `sed -n l` to debug key inputs
+
 - [GitHub -- `github-utilities/make-readme`](https://github.com/github-utilities/make-readme)
+
+- [GitHub -- `tpope/vim-commentary`](https://github.com/tpope/vim-commentary)
+
+- [StackExchange Vi -- How to allow count before my custom operator](https://vi.stackexchange.com/questions/12555/)
+
+- [StackExchange Vi -- Make mapping that accepts count independent of line count](https://vi.stackexchange.com/questions/21485/)
 
 - [StackOverflow -- Can I map alt key in Vim?](https://stackoverflow.com/questions/7501092/)
 
@@ -331,34 +353,6 @@ ______
 
 - [YouTube -- My Vimrc: Customized for Markdown Writing & Nothing Else](https://www.youtube.com/watch?v=Igfm59WL3NE)
 
-
-```
-" @see {docs} - help :map-operator
-" @see {docs} - help :map-commands
-" @see {docs} - help :command-range
-" @see {docs} - help <range>
-" @see {docs} - help :command-count
-" @see {docs} - help <count>
-" @see {docs} - help <Plug>
-" @see {docs} - help <SID>
-" @see {docs} - help :map-<expr>
-" @see {link} - https://vi.stackexchange.com/questions/12555/how-to-allow-count-before-my-custom-operator
-" @see {link} - https://github.com/tpope/vim-commentary/blob/f8238d70f873969fb41bf6a6b07ca63a4c0b82b1/plugin/commentary.vim#L28-L30
-" @see {link} - https://vi.stackexchange.com/questions/21485/make-mapping-that-accepts-count-independent-of-line-count
-" Thanks be to -- My Vimrc: Customized for Markdown Writing & Nothing Else
-"   https://www.youtube.com/watch?v=Igfm59WL3NE
-"
-" Thanks be to: https://vim.fandom.com/wiki/Get_Alt_key_to_work_in_terminal
-"               Hint use <C-V> then <C-[> to get `` escape character
-"
-" Thanks be to: https://www.youtube.com/watch?v=gZCXaF-Lmco
-"               Essential Settings for Neovim
-"
-"               https://stackoverflow.com/questions/7501092/
-"               can I map alt key in vim
-"
-"               On Linux use `sed -n l` to debug key inputs
-```
 
 ______
 
